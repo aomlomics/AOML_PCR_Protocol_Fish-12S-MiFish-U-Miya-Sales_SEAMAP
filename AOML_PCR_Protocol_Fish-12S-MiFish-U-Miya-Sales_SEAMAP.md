@@ -25,8 +25,9 @@ maturity level: mature
 
 # FAIRe terms
 pcr_0_1: 1
+inhibition_check_0_1: 0
+inhibition_check: not applicable
 thermocycler: Eppendorf Mastercycler Nexus Thermal Cycler
-amplificationReactionVolume: 13
 assay_name: Fish-12S-MiFish-U-Miya-Sales
 assay_validation: not provided
 targetTaxonomicAssay: Actinopterygii
@@ -44,6 +45,8 @@ pcr_primer_vol_forward: 1.0
 pcr_primer_vol_reverse: 1.0
 pcr_primer_conc_forward: 10
 pcr_primer_conc_reverse: 10
+pcr_dna_vol: 1.0
+amplificationReactionVolume: 13
 probeReporter: not applicable
 probeQuencher: not applicable
 probe_seq: not applicable
@@ -51,8 +54,10 @@ probe_ref: not applicable
 probe_conc: not applicable
 commercial_mm: AmpliTaq Gold 360 Master Mix
 custom_mm: PCR reactions were run in 13 µL reaction volumes, with 1.0 µL of DNA, 6.25 µL of AmpliTaq Gold, 2.71 µL of water, 1.04 µL BSA (0.08 mg/mL), and 1.0 µL of each primer (10 µM).
-pcr_dna_vol: 1.0
-pcr_rep: 1.0
+block_seq: not applicable
+block_ref: not applicable
+block_taxa: not applicable
+pcr_rep: 3.0
 nucl_acid_amp: https://www.protocols.io/view/environmental-dna-edna-12s-metabarcoding-illumina-kqdg35kqzv25/v
 pcr_cond: initial denaturation:95_15;touchdown cycling;denaturation:94_0.5;annealing:69.5_0.5;elongation:72_1.5;13;normal cycling;denaturation:94_0.5;annealing:50_0.5;elongation:72_0.75;final elongation:72_10;25
 annealingTemp: 69.5;50
