@@ -19,7 +19,7 @@ language: en
 issued: 2024-08-22
 audience: scientists
 publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory
-hasVersion: 1
+hasVersion: 1.2.1
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -132,7 +132,8 @@ pcr2_method_additional: not applicable
 | 1.1.0 | 2024-11-16 | Addition of FAIR eDNA terms in YAML front matter |
 | 1.1.1 | 2024-12-15 | Updated YAML front matter |
 | 1.1.2 | 2026-03-30 | Updated assay name |
-| 1.2.0 | 2026-03-30 | PCR reaction details updated to match G-FISHER protocol |
+| 1.2.0 | 2026-03-30 | PCR reaction details updated to match SEAMAP protocol |
+| 1.2.1 | 2026-04-28 | Updated FAIRe terms order |
 
 ### Acronyms and Abbreviations
 
